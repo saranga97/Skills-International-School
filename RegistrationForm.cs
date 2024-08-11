@@ -194,6 +194,11 @@ namespace SkillsInternational
         {
 
         }
+
+        private void groupBoxParentDetails_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

@@ -60,11 +60,11 @@
             // 
             this.groupBoxStudentReg.Controls.Add(this.cmbRegNo);
             this.groupBoxStudentReg.Controls.Add(this.labelRegNo);
-            this.groupBoxStudentReg.Location = new System.Drawing.Point(16, 15);
+            this.groupBoxStudentReg.Location = new System.Drawing.Point(22, 48);
             this.groupBoxStudentReg.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBoxStudentReg.Name = "groupBoxStudentReg";
             this.groupBoxStudentReg.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBoxStudentReg.Size = new System.Drawing.Size(480, 74);
+            this.groupBoxStudentReg.Size = new System.Drawing.Size(511, 74);
             this.groupBoxStudentReg.TabIndex = 0;
             this.groupBoxStudentReg.TabStop = false;
             this.groupBoxStudentReg.Text = "Student Registration";
@@ -100,18 +100,18 @@
             this.groupBoxBasicDetails.Controls.Add(this.labelGender);
             this.groupBoxBasicDetails.Controls.Add(this.labelLastName);
             this.groupBoxBasicDetails.Controls.Add(this.labelFirstName);
-            this.groupBoxBasicDetails.Location = new System.Drawing.Point(16, 96);
+            this.groupBoxBasicDetails.Location = new System.Drawing.Point(22, 130);
             this.groupBoxBasicDetails.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBoxBasicDetails.Name = "groupBoxBasicDetails";
             this.groupBoxBasicDetails.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBoxBasicDetails.Size = new System.Drawing.Size(480, 148);
+            this.groupBoxBasicDetails.Size = new System.Drawing.Size(511, 156);
             this.groupBoxBasicDetails.TabIndex = 1;
             this.groupBoxBasicDetails.TabStop = false;
             this.groupBoxBasicDetails.Text = "Basic Details";
             // 
             // dtpDateOfBirth
             // 
-            this.dtpDateOfBirth.Location = new System.Drawing.Point(133, 105);
+            this.dtpDateOfBirth.Location = new System.Drawing.Point(133, 115);
             this.dtpDateOfBirth.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtpDateOfBirth.Name = "dtpDateOfBirth";
             this.dtpDateOfBirth.Size = new System.Drawing.Size(319, 22);
@@ -120,7 +120,7 @@
             // rdbFemale
             // 
             this.rdbFemale.AutoSize = true;
-            this.rdbFemale.Location = new System.Drawing.Point(227, 74);
+            this.rdbFemale.Location = new System.Drawing.Point(227, 86);
             this.rdbFemale.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rdbFemale.Name = "rdbFemale";
             this.rdbFemale.Size = new System.Drawing.Size(71, 20);
@@ -132,7 +132,7 @@
             // rdbMale
             // 
             this.rdbMale.AutoSize = true;
-            this.rdbMale.Location = new System.Drawing.Point(133, 74);
+            this.rdbMale.Location = new System.Drawing.Point(133, 86);
             this.rdbMale.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rdbMale.Name = "rdbMale";
             this.rdbMale.Size = new System.Drawing.Size(55, 20);
@@ -143,24 +143,24 @@
             // 
             // txtLastName
             // 
-            this.txtLastName.Location = new System.Drawing.Point(133, 43);
+            this.txtLastName.Location = new System.Drawing.Point(133, 55);
             this.txtLastName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtLastName.Name = "txtLastName";
-            this.txtLastName.Size = new System.Drawing.Size(319, 22);
+            this.txtLastName.Size = new System.Drawing.Size(366, 22);
             this.txtLastName.TabIndex = 1;
             // 
             // txtFirstName
             // 
-            this.txtFirstName.Location = new System.Drawing.Point(133, 12);
+            this.txtFirstName.Location = new System.Drawing.Point(133, 24);
             this.txtFirstName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtFirstName.Name = "txtFirstName";
-            this.txtFirstName.Size = new System.Drawing.Size(319, 22);
+            this.txtFirstName.Size = new System.Drawing.Size(366, 22);
             this.txtFirstName.TabIndex = 0;
             // 
             // labelDateOfBirth
             // 
             this.labelDateOfBirth.AutoSize = true;
-            this.labelDateOfBirth.Location = new System.Drawing.Point(20, 111);
+            this.labelDateOfBirth.Location = new System.Drawing.Point(20, 121);
             this.labelDateOfBirth.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelDateOfBirth.Name = "labelDateOfBirth";
             this.labelDateOfBirth.Size = new System.Drawing.Size(79, 16);
@@ -170,7 +170,7 @@
             // labelGender
             // 
             this.labelGender.AutoSize = true;
-            this.labelGender.Location = new System.Drawing.Point(20, 74);
+            this.labelGender.Location = new System.Drawing.Point(20, 86);
             this.labelGender.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelGender.Name = "labelGender";
             this.labelGender.Size = new System.Drawing.Size(52, 16);
@@ -180,7 +180,7 @@
             // labelLastName
             // 
             this.labelLastName.AutoSize = true;
-            this.labelLastName.Location = new System.Drawing.Point(20, 43);
+            this.labelLastName.Location = new System.Drawing.Point(20, 55);
             this.labelLastName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelLastName.Name = "labelLastName";
             this.labelLastName.Size = new System.Drawing.Size(72, 16);
@@ -190,7 +190,7 @@
             // labelFirstName
             // 
             this.labelFirstName.AutoSize = true;
-            this.labelFirstName.Location = new System.Drawing.Point(20, 12);
+            this.labelFirstName.Location = new System.Drawing.Point(20, 24);
             this.labelFirstName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelFirstName.Name = "labelFirstName";
             this.labelFirstName.Size = new System.Drawing.Size(72, 16);
@@ -207,18 +207,18 @@
             this.groupBoxContactDetails.Controls.Add(this.labelMobilePhone);
             this.groupBoxContactDetails.Controls.Add(this.labelEmail);
             this.groupBoxContactDetails.Controls.Add(this.labelAddress);
-            this.groupBoxContactDetails.Location = new System.Drawing.Point(16, 251);
+            this.groupBoxContactDetails.Location = new System.Drawing.Point(22, 294);
             this.groupBoxContactDetails.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBoxContactDetails.Name = "groupBoxContactDetails";
             this.groupBoxContactDetails.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBoxContactDetails.Size = new System.Drawing.Size(480, 148);
+            this.groupBoxContactDetails.Size = new System.Drawing.Size(511, 148);
             this.groupBoxContactDetails.TabIndex = 2;
             this.groupBoxContactDetails.TabStop = false;
             this.groupBoxContactDetails.Text = "Contact Details";
             // 
             // txtHomePhone
             // 
-            this.txtHomePhone.Location = new System.Drawing.Point(320, 105);
+            this.txtHomePhone.Location = new System.Drawing.Point(367, 105);
             this.txtHomePhone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtHomePhone.Name = "txtHomePhone";
             this.txtHomePhone.Size = new System.Drawing.Size(132, 22);
@@ -226,7 +226,7 @@
             // 
             // txtMobilePhone
             // 
-            this.txtMobilePhone.Location = new System.Drawing.Point(133, 105);
+            this.txtMobilePhone.Location = new System.Drawing.Point(133, 103);
             this.txtMobilePhone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMobilePhone.Name = "txtMobilePhone";
             this.txtMobilePhone.Size = new System.Drawing.Size(132, 22);
@@ -234,10 +234,10 @@
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(133, 74);
+            this.txtEmail.Location = new System.Drawing.Point(133, 68);
             this.txtEmail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(319, 22);
+            this.txtEmail.Size = new System.Drawing.Size(366, 22);
             this.txtEmail.TabIndex = 5;
             // 
             // txtAddress
@@ -246,13 +246,13 @@
             this.txtAddress.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtAddress.Multiline = true;
             this.txtAddress.Name = "txtAddress";
-            this.txtAddress.Size = new System.Drawing.Size(319, 24);
+            this.txtAddress.Size = new System.Drawing.Size(366, 24);
             this.txtAddress.TabIndex = 4;
             // 
             // labelHomePhone
             // 
             this.labelHomePhone.AutoSize = true;
-            this.labelHomePhone.Location = new System.Drawing.Point(240, 105);
+            this.labelHomePhone.Location = new System.Drawing.Point(279, 105);
             this.labelHomePhone.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelHomePhone.Name = "labelHomePhone";
             this.labelHomePhone.Size = new System.Drawing.Size(86, 16);
@@ -272,7 +272,7 @@
             // labelEmail
             // 
             this.labelEmail.AutoSize = true;
-            this.labelEmail.Location = new System.Drawing.Point(20, 74);
+            this.labelEmail.Location = new System.Drawing.Point(20, 70);
             this.labelEmail.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelEmail.Name = "labelEmail";
             this.labelEmail.Size = new System.Drawing.Size(41, 16);
@@ -297,43 +297,44 @@
             this.groupBoxParentDetails.Controls.Add(this.labelContactNo);
             this.groupBoxParentDetails.Controls.Add(this.labelNIC);
             this.groupBoxParentDetails.Controls.Add(this.labelParentName);
-            this.groupBoxParentDetails.Location = new System.Drawing.Point(16, 406);
+            this.groupBoxParentDetails.Location = new System.Drawing.Point(22, 449);
             this.groupBoxParentDetails.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBoxParentDetails.Name = "groupBoxParentDetails";
             this.groupBoxParentDetails.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBoxParentDetails.Size = new System.Drawing.Size(480, 111);
+            this.groupBoxParentDetails.Size = new System.Drawing.Size(511, 134);
             this.groupBoxParentDetails.TabIndex = 3;
             this.groupBoxParentDetails.TabStop = false;
             this.groupBoxParentDetails.Text = "Parent Details";
+            this.groupBoxParentDetails.Enter += new System.EventHandler(this.groupBoxParentDetails_Enter);
             // 
             // txtContactNo
             // 
-            this.txtContactNo.Location = new System.Drawing.Point(133, 74);
+            this.txtContactNo.Location = new System.Drawing.Point(133, 93);
             this.txtContactNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtContactNo.Name = "txtContactNo";
-            this.txtContactNo.Size = new System.Drawing.Size(319, 22);
+            this.txtContactNo.Size = new System.Drawing.Size(366, 22);
             this.txtContactNo.TabIndex = 10;
             // 
             // txtNIC
             // 
-            this.txtNIC.Location = new System.Drawing.Point(133, 43);
+            this.txtNIC.Location = new System.Drawing.Point(133, 62);
             this.txtNIC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNIC.Name = "txtNIC";
-            this.txtNIC.Size = new System.Drawing.Size(319, 22);
+            this.txtNIC.Size = new System.Drawing.Size(366, 22);
             this.txtNIC.TabIndex = 9;
             // 
             // txtParentName
             // 
-            this.txtParentName.Location = new System.Drawing.Point(133, 12);
+            this.txtParentName.Location = new System.Drawing.Point(133, 31);
             this.txtParentName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtParentName.Name = "txtParentName";
-            this.txtParentName.Size = new System.Drawing.Size(319, 22);
+            this.txtParentName.Size = new System.Drawing.Size(366, 22);
             this.txtParentName.TabIndex = 8;
             // 
             // labelContactNo
             // 
             this.labelContactNo.AutoSize = true;
-            this.labelContactNo.Location = new System.Drawing.Point(20, 74);
+            this.labelContactNo.Location = new System.Drawing.Point(20, 93);
             this.labelContactNo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelContactNo.Name = "labelContactNo";
             this.labelContactNo.Size = new System.Drawing.Size(73, 16);
@@ -343,7 +344,7 @@
             // labelNIC
             // 
             this.labelNIC.AutoSize = true;
-            this.labelNIC.Location = new System.Drawing.Point(20, 43);
+            this.labelNIC.Location = new System.Drawing.Point(20, 62);
             this.labelNIC.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelNIC.Name = "labelNIC";
             this.labelNIC.Size = new System.Drawing.Size(29, 16);
@@ -353,7 +354,7 @@
             // labelParentName
             // 
             this.labelParentName.AutoSize = true;
-            this.labelParentName.Location = new System.Drawing.Point(20, 12);
+            this.labelParentName.Location = new System.Drawing.Point(20, 31);
             this.labelParentName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelParentName.Name = "labelParentName";
             this.labelParentName.Size = new System.Drawing.Size(86, 16);
@@ -362,7 +363,7 @@
             // 
             // btnRegister
             // 
-            this.btnRegister.Location = new System.Drawing.Point(42, 576);
+            this.btnRegister.Location = new System.Drawing.Point(22, 591);
             this.btnRegister.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRegister.Name = "btnRegister";
             this.btnRegister.Size = new System.Drawing.Size(100, 28);
@@ -373,7 +374,7 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(155, 576);
+            this.btnUpdate.Location = new System.Drawing.Point(130, 591);
             this.btnUpdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(100, 28);
@@ -384,7 +385,7 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(269, 576);
+            this.btnClear.Location = new System.Drawing.Point(325, 591);
             this.btnClear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(100, 28);
@@ -395,7 +396,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(382, 576);
+            this.btnDelete.Location = new System.Drawing.Point(433, 591);
             this.btnDelete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(100, 28);
@@ -407,7 +408,7 @@
             // linkLogout
             // 
             this.linkLogout.AutoSize = true;
-            this.linkLogout.Location = new System.Drawing.Point(42, 618);
+            this.linkLogout.Location = new System.Drawing.Point(23, 19);
             this.linkLogout.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLogout.Name = "linkLogout";
             this.linkLogout.Size = new System.Drawing.Size(48, 16);
@@ -419,7 +420,7 @@
             // linkExit
             // 
             this.linkExit.AutoSize = true;
-            this.linkExit.Location = new System.Drawing.Point(453, 618);
+            this.linkExit.Location = new System.Drawing.Point(505, 632);
             this.linkExit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkExit.Name = "linkExit";
             this.linkExit.Size = new System.Drawing.Size(28, 16);
@@ -432,7 +433,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(525, 670);
+            this.ClientSize = new System.Drawing.Size(563, 670);
             this.Controls.Add(this.linkExit);
             this.Controls.Add(this.linkLogout);
             this.Controls.Add(this.btnDelete);
